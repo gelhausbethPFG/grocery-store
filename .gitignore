@@ -1,0 +1,16 @@
+.metadata
+.settings
+.project
+.classpath
+target
+.factorypath
+/logs
+/bin
+**/target/
+**/WEB-INF/classes
+**/META-INF/maven
+*/ cucumber-html-reports/
+.idea
+*.iml
+*.swp
+*~
