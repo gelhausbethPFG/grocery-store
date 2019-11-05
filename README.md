@@ -38,4 +38,4 @@ Grocery Checkout
     
 * We need to track sales and discounts
     * We have a database we're dumping sale metrics into. There is a class with a method to store the following values:
-    * `DiscountTracker.storeDiscounts(int appleCount, int appleAmount, int bananaCount, int bananaAmount, int cocnutCount, int cocnutAmount)`
+    * `DiscountTracker.storeDiscounts(int appleCount, int appleAmount, int bananaCount, int bananaAmount, int coconutCount, int coconutAmount)`

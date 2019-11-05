@@ -3,7 +3,7 @@ package com.principal.sbd.code.interview.code.kata;
 import static java.lang.System.out;
 
 public class DiscountTracker {
-    static void storeDiscounts(int appleCount, int appleAmount, int bananaCount, int bananaAmount, int cocnutCount, int cocnutAmount) {
+    static void storeDiscounts(int appleCount, int appleAmount, int bananaCount, int bananaAmount, int coconutCount, int coconutAmount) {
         out.println("Apple Sale\n"
                 + "Count: " + appleCount + "\n"
                 + "Amount: $" + appleAmount + "\n"
@@ -11,9 +11,9 @@ public class DiscountTracker {
                 + "Count: " + bananaCount + "\n"
                 + "Amount: $" + bananaAmount + "\n"
                 + "Coconut Sale\n"
-                + "Count: " + cocnutCount + "\n"
-                + "Amount: $" + cocnutAmount + "\n"
-                + "Total Sale Discount Amount: $" + (appleAmount + bananaAmount + cocnutAmount)
+                + "Count: " + coconutCount + "\n"
+                + "Amount: $" + coconutAmount + "\n"
+                + "Total Sale Discount Amount: $" + (appleAmount + bananaAmount + coconutAmount)
         );
     }
 }
